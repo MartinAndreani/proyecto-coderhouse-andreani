@@ -47,20 +47,23 @@ nav{
     position: relative;
     border-radius: 3px;
     display: inline-block;
-    bottom: 15px;
-    right: 150px;
+    bottom: 40px;
+    left: 250px;
+    
     
 }
 
 
 
 header nav ul li a{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: #0f89ee;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 27px;
-    font:bold
+    font:bold;
+    
+    
     
 }
 
@@ -75,6 +78,7 @@ header nav ul li{
     width: 35vh;
     text-align: center;    
     border-color: black;
+    
     
 }
 
