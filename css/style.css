@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-image: url(../assets/img/abstract-background-with-wavy-line-Graphics-32607263-2-580x387-PhotoRoom.png);
+    background-size: 100rem;
+}
+
+/* ----------------------------HEADER------------------------ */
+header{
+    height: 20vh;
+    position: relative;
+    width: 100%;
+    
+}
+header button{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    left:65%
+}
+header img {
+    height: 20vh;
+    position: relative;
+    left: 60px;
+    padding: 0;
+    
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    left: 35%;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+/* ----------------------------NAV------------------------ */
+
+nav{
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    display: inline-block;
+    bottom: 15px;
+    right: 150px;
+    
+}
+
+
+
+header nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #0f89ee;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    font:bold
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    background-color: rgba(128, 128, 128, 0.199);
+    border-radius: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0px;
+    width: 35vh;
+    text-align: center;    
+    border-color: black;
+    
+}
+
+
+
+/* ----------------------------MAIN------------------------ */
+
+main{
+    height:700px ;
+    
+}
+
+aside{
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+    background-color: #3333338a;
+    border-radius:  100px;;
+    color: aliceblue;
+
+
+}
+
+section{
+    position: absolute;
+    display: inline-block;
+    height: 700px;
+    width: 85%;
+    
+}
+
+aside div{
+    margin-top: 20px;
+    height: 75px;
+    border:5px;
+    border-color: #333333;
+    align-items: center;
+    
+}
+aside div img{
+    height: 73px;
+    width: 80px;
+}
+
+aside div h3{
+    position: absolute;
+    display: inline-block;
+    font-size:20px;
+}
+
+
+aside div h4{
+    position: relative;
+    display: inline-block;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+
+section article{
+    position: relative;
+    margin: 50px;
+    width: 95%;
+    height: 40%;
+    background-color: #302f2f2a;
+    border-radius: 5px;
+    
+
+}
+
+section article div{
+    position: relative;
+    display: inline-block;
+    height: 85%;
+    width: 150px;
+    margin: 15px 32px;
+    border-radius: 7px;
+    bottom: 10px;
+    padding: 6px;
+    text-align: center;
+    overflow:hidden;
+    background-color: #acacac0e;
+
+}
+
+section article div img{
+    position: relative;
+    height: 180px;
+    width: 100%;
+}
+section article div h3{
+   position: relative;
+   display: inline-block;
+   top: 5px;
+}
+
+
+.playlist{
+    display: inline-block;
+    position: relative;
+    background-color: #acacac0e;
+    margin: 20px;
+    height: 30vh;
+    width: 80vh;
+    align-items: center;
+    left: 10vh;
+    padding: 15px;
+
+
+}
+.playlist h2{
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    bottom: 70%;
+    color: aliceblue;
+
+
+    
+}
+
+.playlist img{
+    position: relative;
+    width:180px;
+    height: 180px;
+    display: inline-block;
+}
+
+.playlist p{
+    position: relative;
+    display:inline-block;
+    bottom: 15vh;
+    left:27vh;
+    color: aliceblue;
+}
+
+
+.artistas{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    left: 100px;
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    
+}
+
+.artistas div{
+    position: relative;
+    display: inline-block;
+    height: 40%;
+    width: 44%;
+    text-align: justify;
+}
+.artistas div h3{
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    color: aliceblue;
+    
+}
+
+.artistas h2{
+    color: aliceblue;
+
+}
+
+.artistas div img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.genero{
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    left: 100px;
+    width: 100%;
+    height: 500px;
+    padding: 15px;}
+
+.genero div{
+    position: relative;
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    text-align: justify;
+    left: 50px;
+}
+
+.genero div img{
+    position: relative;
+    display: inline-block;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+#logo-in{
+    display: inline-block;
+    position: relative;
+    left: 45%;
+    bottom: 30px;
+}
+
+
+#contenedor{
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 500px;
+    background-color: #0f89ee;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    left: 35%;
+    
+}
+#central {
+    width: 100%;
+}
+.titulo {
+    font-size: 250%;
+    color:#bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #3282b8;
+    border-radius: 3px;
+}
+
+#login input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 3px ñ
+}
+#login button {
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #bbe1fa;
+    margin-top: 10px;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;}
+
+
+
+/* ----------------------------MAIN------------------------ */
+
+footer{
+    height: 1vh;
+    text-align: center;
+    margin: 10px;
+}
+
+footer img{
+    width: 30px;
+    margin: 30px;
+    position: relative;
+    left: 30vh;
+}
+
+#logo2{
+    width: 60px;
+}
+.term{
+    margin: 10px;
+    position: relative;
+    display: inline;
+}
