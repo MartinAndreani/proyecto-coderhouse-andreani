@@ -1,140 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
-    <title>Groove Music</title>
+        <title>Groove Music</title>
 
 </head>
 <body>
-
-    <header>
-        <img id="logo" src="assets/img/download-removebg-preview.png" alt="">
-        <h1>Groove Music</h1>
-        <button>
-            <a href="./pages/login.html">Log In</a>
-        </button>
-        <button>
-            <a href="#">Sign In</a>
-        </button>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./pages/playlist.html">Playlist</a></li>
-                <li><a href="./pages/artistas.html">Artistas</a></li>
-                <li><a href="./pages/generos.html">Generos</a></li>
-            </ul>
-            
-        </nav>
-
-    </header>
-
-    <main>
-
-        <aside>
-                <h2>RECIENTES</h2>
-                <div>
-                    <img src="./assets/img/albumes/bocanada.jpg" alt="">
-                    <h3>Bocanada</h3>
-                    <h4>Gustavo Cerati</h4>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img id="logo" src="assets/img/download-removebg-preview.png" alt="">
+                <h1>GROOVE MUSIC</h1>
+                
+                <div class="col" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item text-center h4">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item text-center h4">
+                    <a class="nav-link" href="#">Playlist</a>
+                    </li>
+                    <li class="nav-item text-center h4">
+                    <a class="nav-link" href="#">Artistas</a>
+                    </li>
+                    <li class="nav-item text-center h4">
+                    <a class="nav-link" href="#">Generos</a>
+                    </li>
+                </ul>
                 </div>
-
-                <div>
-                    <img src="./assets/img/albumes/artaud.jpeg" alt="">
-                    <h3>Bajan</h3>
-                    <h4>Pescado Ravioso</h4>
-                </div>
-                <div>
-                    <img src="./assets/img/albumes/daft punk.jpeg" alt="">
-                    <h3>Instant Crush</h3>
-                    <h4>Daft Punk</h4>
-                </div>
-                <div>
-                    <img src="./assets/img/albumes/guns.jpeg" alt="">
-                    <h3>Nightrain</h3>
-                    <h4>Guns N' Roses</h4>
-                </div>
-                <div>
-                    <img src="./assets/img/albumes/red.jpeg" alt="">
-                    <h3>Scar Tissue</h3>
-                    <h4>Red Hot Chillie Pepers</h4>
-                </div>
-                <div>
-                    <img src="./assets/img/albumes/tyler.jpeg" alt="">
-                    <h3>Foreword</h3>
-                    <h4>Tyler The Creator</h4>
-                </div>
-                <div><img src="./assets/img/albumes/pink.png" alt="">
-                    <h3>Time</h3>
-                    <h4>Pink Floid</h4></div>
-        </aside>
-
-        <section>
-
-            <article>
-                <h2>Tus Mixes</h2>
-                <div>
-                    <img src="./assets/img/funk.jpeg" alt="">
-                    <h3>Mix Funk</h3>
-                </div>
-                <div>
-                    <img src="./assets/img/hip.jpeg" alt="">
-                    <h3>Mix Hip Hop</h3>
-                </div>
-                <div>
-                    <img src="./assets/img/pop.png" alt="">
-                    <h3>Mix Pop</h3>
-                </div>
-                <div>
-                    <img src="./assets/img/rock.jpeg" alt="">
-                    <h3>Mix Rock</h3></div>
-                <div>
-                    <img src="./assets/img/fiesta.jpeg" alt="">
-                    <h3>Mix Fiesta</h3></div>
-            </article>
-
-            <article>
-                <h3>Tendencias</h3>
-                <div>
-                    <img src="./assets/img/peso pluma.jpeg" alt="">
-                    <h3>Session 55 BZRP</h3>
-                </div>
-                <div>
-                    <img src="./assets/img/asitwas.jpeg" alt="">
-                    <h3>AS It Was</h3>
-                </div>
-                <div>
-                    <img src="./assets/img/itwasagoodday.jpeg" alt="">
-                    <h3>It Was a Good Day</h3>
-                </div>
-                <div>
-                    <img src="./assets/img/calling.jpeg" alt="">
-                    <h3>Calling</h3></div>
-                <div>
-                    <img src="./assets/img/los del espacio.jpeg" alt="">
-                    <h3>Los del Espacio</h3></div>
-            </article>
-
-        </section>
-
+                <button type="button" class="bot1"><a href="./pages/login.html">Log In</a></button>
+                <button type="button" class="bot2">Sign Up</button>
+            </div>
+            </nav>
+        </header>
+        </div>
         
-    </main>
+    
 
-    <footer>
-        <img id="logo2" src="assets/img/download-removebg-preview.png" alt="">
-        <a href="#" class="term">Politicas de Privacidad</a>
-        <a href="#"class="term">Terminos de Cookies</a>
-        <a href="#"><img src="./assets/img/fc.png" alt="Facebook"></a>
-        <a href="#"><img src="./assets/img/tw.png" alt="Twitter"></a>
-        <a href="#"><img src="./assets/img/ig.png" alt="intagram"></a>
-        <a href="#"><img src="./assets/img/linkedin.png" alt="LinkedInd"></a>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
-</html>
+    <div class="container-fluid ">
+        <div class="row ">
+
+            <div class="col-lg-2 text-center recientes "  >
+            
+                <h2>Recientes</h2>
+
+                <div class="row">
+                <div class="col ">
+                    <img class="img-thumbnail" src="./assets/img/albumes/bocanada.jpg" alt="">
+
+                        <h5>Bocanada</h5>
+                        <h6>Gustavo Cerati</h6>
+
+                    
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col">
+                    <img class="img-thumbnail" src="./assets/img/albumes/artaud.jpeg" alt="">
+                    <h5>Bajan</h5>
+                    <h6>Pescado Ravioso</h6>
+                </div>
+
+                
+                </div>
+
+                <div class="row">
+                <div class="col">
+                    <img class="img-thumbnail" src="./assets/img/albumes/daft punk.jpeg" alt="">
+                    <h5>Instant Crush</h5>
+                    <h6>Daft Punk</h6>
+                </div>
+                </div>
+
+
+                <div class="row">
+                <div class="col">
+                    <img class="img-thumbnail" src="./assets/img/albumes/guns.jpeg" alt="">
+                    <h5>Nightrain</h5>
+                    <h6>Guns N' Roses</h6>
+                </div>
+                </div>
+
+
+                <div class="row">
+                <div class="col">
+                    <img class="img-thumbnail" src="./assets/img/albumes/pink.png" alt="">
+                    <h5>Time</h5>
+                    <h6>Pink Floid</h6>
+                </div>
+                </div>
+        
+                
+
+
+            
+            </div>
+            <div class="secciones col-lg-10 mb-10">
+            <main>
+                <section>
+                <div class="row text-center ">
+                    <div class="col-md-12 mixes">
+                        <h2>Tus MIXES</h2>
+                        <div class="row ">
+                        <div class="col-md-3">
+                            <img src="./assets/img/funk.jpeg" alt="Imagen 1" class="img-thumbnail">
+                            <h3>Mix Funk</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./assets/img/hip.jpeg" alt="Imagen 2" class="img-thumbnail">
+                            <h3>Mix Hip Hop</h3>
+
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./assets/img/pop.png" alt="Imagen 3" class="img-thumbnail">
+                            <h3>Mix Pop</h3>
+
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./assets/img/rock.jpeg" alt="Imagen 4" class="img-thumbnail" >
+                            <h3>Mix Rock</h3>
+
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="row text-center tendencias">
+                    <div class="col-md-12">
+                        <h2>Tendencias</h2>
+                        <div class="row mb-10" >
+                        <div class="col-md-3">
+                            <img src="./assets/img/peso pluma.jpeg" alt="Imagen 5" class="img-thumbnail">
+                            <h3>Session 55 BZRP</h3>
+
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./assets/img/asitwas.jpeg" alt="Imagen 6" class="img-thumbnail">
+                            <h3>AS It Was</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./assets/img/itwasagoodday.jpeg" alt="Imagen 7" class="img-thumbnail">
+                            <h3>It Was a Good Day</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./assets/img/los del espacio.jpeg" alt="Imagen 8" class="img-thumbnail">
+                            <h3>Los del Espacio</h3>
+
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+            </main>
+            </div>
+        </div>
+        </div>
+    
+        <div>
+        <footer class="bg-light text-center">
+            <img id="logo2" src="assets/img/download-removebg-preview.png" alt="">
+            <a href="#" class="term">Politicas de Privacidad</a>
+            <a href="#"class="term">Terminos de Cookies</a>
+            <a href="#"><img src="./assets/img/fc.png" alt="Facebook"></a>
+            <a href="#"><img src="./assets/img/tw.png" alt="Twitter"></a>
+            <a href="#"><img src="./assets/img/ig.png" alt="intagram"></a>
+            <a href="#"><img src="./assets/img/linkedin.png" alt="LinkedInd"></a>
+            <p>Derechos de autor &copy; 2023</p>
+            </footer>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+    </html>
