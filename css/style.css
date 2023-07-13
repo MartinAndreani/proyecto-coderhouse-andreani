@@ -287,12 +287,7 @@ section article div h3{
 
 
 
-#logo-in{
-    display: inline-block;
-    position: relative;
-    left: 45%;
-    bottom: 30px;
-}
+
 
 
 #contenedor{
@@ -383,20 +378,25 @@ body{background-image: url(../assets/img/fondo-textura-pintura-liquida-veteada-t
 }
 
 
-header img{
+.logo1{
     position: relative;
     left: 50px;
     height: 140px;
 }
+
+
 h1{
+    
     position: relative;
     left: 330px;
     bottom: 20px;
     color: rgb(80, 89, 96) !important;
 }
 
+
+
 .nav-link{
-    align-items: center;
+    text-align: center;
     color: rgb(80, 89, 96) !important;
 }
 
@@ -405,9 +405,10 @@ h1{
     top: 60px;
     right: 80px;
     border-radius: 15px;
-    background-color: rgba(109, 109, 117, 0.081);
+    background-color: rgba(109, 109, 117, 0.081) !;
     width: 33vh;
     margin: 5px;
+    align-items: center;
     
 }
 
@@ -499,68 +500,3 @@ button:hover{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-    .recientes{
-        display: none;
-    }
-    h1{position: relative;
-        right: 20px;
-        bottom: 30px;
-        color: rgb(80, 89, 96) !important;
-        }
-
-    header img{
-        position: relative;
-        left: 100px;
-        top: 50px;
-        height: 160px;}
-
-
-    .navbar-toggler{
-        position: relative;
-        bottom: 40px;
-        right:220px;
-        background-color: rgb(187, 181, 181) !important;
-
-    }
-
-    .bot1{
-    
-        position: relative;
-        height: 50px;
-        width: 80px;
-        bottom: 70vh;
-        left: 71vh;
-    }
-    .bot2{
-        position: relative;
-        height: 50px;
-        width: 80px;
-        bottom: 60vh;
-        left: 26vh;
-    }
-    .bot1:hover{
-    background-color: rgba(62, 200, 254, 0.529);
-    }
-    .bot2:hover{
-    background-color: rgba(62, 200, 254, 0.529);
-
-    }
-    .mixes img{
-       height: 50px;
-    
-    }
-    .tendencias img{
-        height: 50px;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media  (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {}
