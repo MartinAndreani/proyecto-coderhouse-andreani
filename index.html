@@ -1,195 +1,270 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
-        <title>Groove Music</title>
+    <title>Groove Music</title>
 
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav class="navbar navbar-expand-lg">
+
+    
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <img id="logo" src="assets/img/download-removebg-preview.png" alt="">
-                <h1>GROOVE MUSIC</h1>
-                
-                <div class="col" id="navbarNav">
+                <img src="./assets/img/download-removebg-preview.png" alt="">
+                <h1>Groove Music</h1>
+              <button class="navbar-toggler dash" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item text-center h4">
+                  <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item text-center h4">
-                    <a class="nav-link" href="#">Playlist</a>
-                    </li>
-                    <li class="nav-item text-center h4">
-                    <a class="nav-link" href="#">Artistas</a>
-                    </li>
-                    <li class="nav-item text-center h4">
-                    <a class="nav-link" href="#">Generos</a>
-                    </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/playlist.html">Playlist</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/artistas.html">Artistas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/generos.html">Generos</a>
+                  </li>
                 </ul>
-                </div>
-                <button type="button" class="bot1"><a href="./pages/login.html">Log In</a></button>
-                <button type="button" class="bot2">Sign Up</button>
+              </div>
             </div>
-            </nav>
-        </header>
-        </div>
-        
+            <button class="bot1">
+                <a href="./pages/login.html">Log In</a>
+            </button>
+            <button class="bot2">
+                <a href="#">Sign In</a>
+            </button>
+        </nav>
     
+        <br>
+        <br>
 
-
-    <div class="container-fluid ">
-        <div class="row ">
-
-            <div class="col-lg-2 text-center recientes "  >
-            
-                <h2>Recientes</h2>
-
-                <div class="row">
-                <div class="col ">
-                    <img class="img-thumbnail" src="./assets/img/albumes/bocanada.jpg" alt="">
-
-                        <h5>Bocanada</h5>
-                        <h6>Gustavo Cerati</h6>
-
-                    
-                </div>
-                </div>
-
-                <div class="row">
-                <div class="col">
-                    <img class="img-thumbnail" src="./assets/img/albumes/artaud.jpeg" alt="">
-                    <h5>Bajan</h5>
-                    <h6>Pescado Ravioso</h6>
-                </div>
-
+        
+        
+            <div class="container ">
                 
-                </div>
-
-                <div class="row">
-                <div class="col">
-                    <img class="img-thumbnail" src="./assets/img/albumes/daft punk.jpeg" alt="">
-                    <h5>Instant Crush</h5>
-                    <h6>Daft Punk</h6>
-                </div>
-                </div>
+                <div class="row g5 ">
 
 
-                <div class="row">
-                <div class="col">
-                    <img class="img-thumbnail" src="./assets/img/albumes/guns.jpeg" alt="">
-                    <h5>Nightrain</h5>
-                    <h6>Guns N' Roses</h6>
-                </div>
-                </div>
+                    <div class="col-sm-12 p-3  col-md-2 p-3">
+                        <h3>Reciente</h3>
+
+                        <div class="row">
+                            <div class="col-4 col-md-12 col-sm-4 d-sm-block ">
+                                <div class="card mb-3" >
+                                    <div class="row g-0">
+                                      <div class="col-md-4 ">
+                                        <img src="./assets/img/albumes/bocanada.jpg" class="img-fluid rounded-start rec"  alt="...">
+                                      </div>
+                                      <div class="col-md-8 ">
+                                        <div class="card-body ">
+                                          <p class="card-title ">Bocanada</p>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
 
 
-                <div class="row">
-                <div class="col">
-                    <img class="img-thumbnail" src="./assets/img/albumes/pink.png" alt="">
-                    <h5>Time</h5>
-                    <h6>Pink Floid</h6>
-                </div>
-                </div>
+                            <div class="col-4 col-md-12 col-sm-4 ">
+                                <div class="card mb-3" >
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./assets/img/albumes/artaud.jpeg" class="img-fluid rounded-start  rec" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <p class="card-title">Bajan</p>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+
+                            <div class="col-4 col-md-12 col-sm-4 ">
+                                <div class="card mb-3" >
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./assets/img/albumes/daft punk.jpeg" class="img-fluid rounded-start rec" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <p class="card-title">Contact</p>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+
+                            <div class="col-4 col-md-12 col-sm-4  d-none d-xl-block ">
+                                <div class="card mb-3" >
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./assets/img/albumes/tyler.jpeg" class="img-fluid rounded-start rec" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <p class="card-title">Foreword</p>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+
+                            <div class="col-4 col-md-12  d-none d-xl-block ">
+                                <div class="card mb-3" >
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./assets/img/albumes/red.jpeg" class="img-fluid rounded-start rec" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <p class="card-title">Otherside</p>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+
+                            <div class="col-4 col-md-12  d-none d-xl-block ">
+                                <div class="card mb-3" >
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./assets/img/albumes/guns.jpeg" class="img-fluid rounded-start rec" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <p class="card-title">Nightrain</p>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        
+                        
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="col-sm-12 col-md-10 p-3 ">
+                        <div class="row g-2">
+                            <h3>Mixes</h3>
+                            <div class=" border p-3  col-md-3 col-sm-3 col-4 ">
+                                <div class="articul card mb-3">
+                                    <img src="./assets/img/jazz.png" class="card-img-top rec1" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Mix Jazz</h5>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class=" border p-3 col-md-3 col-sm-3 col-4 "><div class=" articul card mb-3">
+                                <img src="./assets/img/funk.jpeg" class="card-img-top rec1" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Mix Funk</h5>
+                                </div>
+                              </div></div>
+                            <div class=" border p-3   col-md-3 col-sm-4  col-4 "><div class=" articul card mb-3">
+                                <img src="./assets/img/reggae.jpeg" class="card-img-top rec1" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Mix Reggae </h5>
+                                </div>
+                              </div></div>
+                            <div class=" border p-3 col-md-3 d-none d-md-block  "><div class="articul card mb-3">
+                                <img src="./assets/img/hip.jpeg" class="card-img-top rec1" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Hip Hop</h5>
+                                </div>
+                              </div></div>
+                        </div>
+                        
+                        <div class="row g-2 ">
+                            <h3>Recomendados</h3>
+                            <div class=" border p-3  col-md-3 col-sm-3 col-4  "><div class=" articul card mb-3">
+                                <img src="./assets/img/calling.jpeg" class="card-img-top rec1" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Calling</h5>
+                                </div>
+                              </div></div>
+                            <div class=" border p-3 col-md-3 col-sm-3 col-4  "><div class="articul card mb-3">
+                                <img src="./assets/img/asitwas.jpeg" class="card-img-top rec1" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">As It Was</h5>
+                                </div>
+                              </div></div>
+                            <div class=" border p-3   col-md-3 col-sm-4  col-4  "><div class="articul card mb-3">
+                                <img src="./assets/img/los del espacio.jpeg" class="card-img-top rec1" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Los del Espacio</h5>
+                                </div>
+                              </div></div>
+                            <div class=" border p-3 col-md-3 d-none d-md-block   "><div class="articul card mb-3">
+                                <img src="./assets/img/itwasagoodday.jpeg" class="card-img-top rec1" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">It was a Good day</h5>
+                                </div>
+                              </div></div>
+                        </div>
+
+                    </div>
         
-                
-
-
-            
+                </div>
             </div>
-            <div class="secciones col-lg-10 mb-10">
-            <main>
-                <section>
-                <div class="row text-center ">
-                    <div class="col-md-12 mixes">
-                        <h2>Tus MIXES</h2>
-                        <div class="row ">
-                        <div class="col-md-3">
-                            <img src="./assets/img/funk.jpeg" alt="Imagen 1" class="img-thumbnail">
-                            <h3>Mix Funk</h3>
-                        </div>
-                        <div class="col-md-3">
-                            <img src="./assets/img/hip.jpeg" alt="Imagen 2" class="img-thumbnail">
-                            <h3>Mix Hip Hop</h3>
-
-                        </div>
-                        <div class="col-md-3">
-                            <img src="./assets/img/pop.png" alt="Imagen 3" class="img-thumbnail">
-                            <h3>Mix Pop</h3>
-
-                        </div>
-                        <div class="col-md-3">
-                            <img src="./assets/img/rock.jpeg" alt="Imagen 4" class="img-thumbnail" >
-                            <h3>Mix Rock</h3>
-
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-
-
-                    <div class="row text-center tendencias">
-                    <div class="col-md-12">
-                        <h2>Tendencias</h2>
-                        <div class="row mb-10" >
-                        <div class="col-md-3">
-                            <img src="./assets/img/peso pluma.jpeg" alt="Imagen 5" class="img-thumbnail">
-                            <h3>Session 55 BZRP</h3>
-
-                        </div>
-                        <div class="col-md-3">
-                            <img src="./assets/img/asitwas.jpeg" alt="Imagen 6" class="img-thumbnail">
-                            <h3>AS It Was</h3>
-                        </div>
-                        <div class="col-md-3">
-                            <img src="./assets/img/itwasagoodday.jpeg" alt="Imagen 7" class="img-thumbnail">
-                            <h3>It Was a Good Day</h3>
-                        </div>
-                        <div class="col-md-3">
-                            <img src="./assets/img/los del espacio.jpeg" alt="Imagen 8" class="img-thumbnail">
-                            <h3>Los del Espacio</h3>
-
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
-            </main>
-            </div>
-        </div>
-        </div>
-    
-        <div>
-        <footer class="bg-light text-center">
-            <img id="logo2" src="assets/img/download-removebg-preview.png" alt="">
-            <a href="#" class="term">Politicas de Privacidad</a>
-            <a href="#"class="term">Terminos de Cookies</a>
-            <a href="#"><img src="./assets/img/fc.png" alt="Facebook"></a>
-            <a href="#"><img src="./assets/img/tw.png" alt="Twitter"></a>
-            <a href="#"><img src="./assets/img/ig.png" alt="intagram"></a>
-            <a href="#"><img src="./assets/img/linkedin.png" alt="LinkedInd"></a>
-            <p>Derechos de autor &copy; 2023</p>
-            </footer>
-        </div>
         
+        
+        <br>
+
+        <div class="container ">
+            <div class="row">
+                <div class="col-4">
+                    <img src="./assets/img/download-removebg-preview.png" alt="" width="60px">
+                </div>
+
+                <div class="col-4">
+                    <a class="term" href="">Terminos y Condiciones</a>
+                    <br>
+                    <a href="#" class="term">Politicas de Privacidad</a>
+
+                </div>
+
+                <div class="col-4">
+                    <a  href="#"><img class="fot" src="../assets/img/fc.png" alt="Facebook"></a>
+                    <a  href="#"><img class="fot" src="../assets/img/tw.png" alt="Twitter"></a>
+                    <a  href="#"><img class="fot" src="../assets/img/ig.png" alt="intagram"></a>
+                    <a  href="#"><img class="fot" src="../assets/img/linkedin.png" alt="LinkedInd"></a>
+                </div>
+            </div>
+
+        </div>
+
+        
+   
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-    
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    </body>
-    </html>
+</body>
+</html>
