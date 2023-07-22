@@ -237,6 +237,25 @@ main .aside {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     text-align: justify; }
 
+.artista {
+  background-color: #33333342 !important;
+  border-radius: 40px !important; }
+  .artista__img {
+    height: 200px !important;
+    border-radius: 25px !important; }
+  .artista__title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    color: #7aacfc !important;
+    text-shadow: 10px 10px 30px;
+    font-size: 20px; }
+    @media (min-width: 992px) {
+      .artista__title {
+        font-size: 30px; } }
+
 #login {
   width: 100%;
   padding: 50px 30px;
