@@ -5,104 +5,294 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <title>Groove Music</title>
 
 </head>
 <body>
 
-    <header>
-        <img id="logo" src="../assets/img/download-removebg-preview.png" alt="">
-        <h1>Groove Music</h1>
-        <button>
-            <a href="./login.html">Log In</a>
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+          <img src="../assets/img/download-removebg-preview.png" alt="">
+          <h1 class="mx-auto">Groove Music</h1>
+        <button button class="navbar-toggler dash" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button>
-            <a href="#">Sign In</a>
-        </button>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./playlist.html">Playlist</a></li>
-                <li><a href="./artistas.html">Artistas</a></li>
-                <li><a href="./generos.html">Generos</a></li>
-            </ul>
-            
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="playlist.html">Playlist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artistas.html">Artistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="generos.html">Generos</a>
+            </li>
+            <li class="nav-item boton">
+              <a class="nav-link boton__a" href="login.html">Log In</a>
+            </li>
+            <li class="nav-item boton">
+              <a class="nav-link boton__a " href="#">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+  </header>
 
-    </header>
-
-    <main>
-
-        <section>
-
-            <article class="artistas">
-                <h2>Mas Escuchdos</h2>
-                <div>
-                    <img src="../assets/img/cerati.jpg" alt="">
-                    <h3>Gustavo Cerati</h3>
-                </div>
-                <div>
-                    <img src="../assets/img/charly.jpeg" alt="">
-                    <h3>Charly Garcia</h3>
-
-
-                </div>
-                <div>
-                    <img src="../assets/img/spinetta.jpeg" alt="">
-                    <h3>Luis A. Spinetta</h3>
-
-                </div>
-                <div>
-                    <img src="../assets/img/Fito.jpeg" alt="">
-                    <h3>Fito Paez</h3>
-
-                </div>
-
-            </article>
-
-
-            <article class="artistas">
-                <h2>Seguidos</h2>
+  <main>
+    <div class="container-fluid ">
                 
-                <div>
-                    <img src="../assets/img/ysya.jpeg" alt="">
-                    <h3>Ysy A</h3>
-
-                </div>
-                <div>
-                    <img src="../assets/img/jamiro.jpeg" alt="">
-                    <h3>Jamiroquai</h3>
-
-                </div>
-                <div>
-                    <img src="../assets/img/nafta.jpeg" alt="">
-                    <h3>Nafta</h3>
-
-                </div>
-                <div>
-                    <img src="../assets/img/usted.jpeg" alt="">
-                    <h3>Usted Señalemelo</h3>
-
-                </div>
-            </article>
+      <div class="row g5 ">
 
 
-        </section>
+          <div class="col-sm-12 p-3  col-md-2 p-3">
+              <h3>Reciente</h3>
 
-        
-    </main>
+              <div class="row">
+                  <div class="col-4 col-md-12 col-sm-4 d-sm-block ">
+                      <div class="card mb-3" >
+                          <div class="row g-0">
+                            <div class="col-md-4 ">
+                              <img src="../assets/img/albumes/bocanada.jpg" class="img-fluid rounded-start rec"  alt="...">
+                            </div>
+                            <div class="col-md-8 ">
+                              <div class="card-body ">
+                                <p class="card-title ">Bocanada</p>
+                                
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
 
-    <footer>
-        <img id="logo2" src="../assets/img/download-removebg-preview.png" alt="">
-        <a href="#" class="term">Politicas de Privacidad</a>
-        <a href="#"class="term">Terminos de Cookies</a>
-        <a href="#"><img src="../assets/img/fc.png" alt="Facebook"></a>
-        <a href="#"><img src="../assets/img/tw.png" alt="Twitter"></a>
-        <a href="#"><img src="../assets/img/ig.png" alt="intagram"></a>
-        <a href="#"><img src="../assets/img/linkedin.png" alt="LinkedInd"></a>
 
-    </footer>
+                  <div class="col-4 col-md-12 col-sm-4 ">
+                      <div class="card mb-3" >
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../assets/img/albumes/artaud.jpeg" class="img-fluid rounded-start  rec" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <p class="card-title">Bajan</p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+
+                  <div class="col-4 col-md-12 col-sm-4 ">
+                      <div class="card mb-3" >
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../assets/img/albumes/daft punk.jpeg" class="img-fluid rounded-start rec" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <p class="card-title">Contact</p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+
+                  <div class="col-4 col-md-12 col-sm-4  d-none d-xl-block ">
+                      <div class="card mb-3" >
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../assets/img/albumes/tyler.jpeg" class="img-fluid rounded-start rec" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <p class="card-title">Foreword</p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+
+                  <div class="col-4 col-md-12  d-none d-xl-block ">
+                      <div class="card mb-3" >
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img  src="../assets/img/albumes/red.jpeg" class="img-fluid rounded-start rec" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <p class="card-title">Otherside</p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+
+                  <div class="col-4 col-md-12  d-none d-xl-block ">
+                      <div class="card mb-3" >
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img  src="../assets/img/albumes/guns.jpeg" class="img-fluid rounded-start rec" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <p class="card-title">Nightrain</p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+              
+              
+              </div>
+          </div>
+
+
+          <div class="col-sm-12 col-md-10 p-3 ">
+              <div class="row g-2">
+                  <div class="col-6  ">
+                      <div class="card mb-1 articul">
+                          <img class="play" src="../assets/img/cerati.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title tit">Gustavo Cerati</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-6  ">
+                      <div class="card mb-1 articul">
+                          <img class="play" src="../assets/img/Fito.jpeg" class="card-img-top"  alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title tit">Fito Paez</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            
+                          </div>
+                        </div>
+                  </div>
+              </div>
+
+
+
+
+              <div class="row g-2">
+                  <div class="col-6  ">
+                      <div class="card mb-1 articul">
+                          <img class="play" src="../assets/img/charly.jpeg" alt="">
+                          <div class="card-body">
+                            <h5 class="card-title tit">Charly Garcia</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-6  ">
+                      <div class="card mb-1 articul">
+                          <img class="play" src="../assets/img/usted.jpeg" alt="">
+
+                          <div class="card-body">
+                            <h5 class="card-title tit">Usted Señalemelo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            
+                          </div>
+                        </div>
+                  </div>
+              </div>
+
+
+
+              <div class="row g-2">
+                  <div class="col-6 d-none d-xl-block ">
+                      <div class="card mb-1 articul">
+                          <img class="play" src="../assets/img/jamiro.jpeg" alt="">
+                          <div class="card-body">
+                            <h5 class="card-title tit">Jamiroquai</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-6 d-none d-xl-block ">
+                      <div class="card mb-1 articul">
+                          <img class="play" src="../assets/img/ysya.jpeg" alt="">
+
+                          <div class="card-body">
+                            <h5 class="card-title tit">Ysy A</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            
+                          </div>
+                        </div>
+                  </div>
+              </div>
+
+          </div>
+  </main>
+
+    
+
+
+                    <footer>
+                      <div class="container-fluid footer ">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="./assets/img/download-removebg-preview.png" alt="" width="60px">
+                            </div>
+          
+                            <div class="col-4 ">
+                                <a class="footer__term" href="">Terminos y Condiciones -</a>
+                                <a href="#" class="footer__term">Politicas de Privacidad</a>
+          
+                            </div>
+          
+                            <div class="col-4 footer__redes">
+          
+                              <div class="row btn ">
+          
+                                <div class="col-md-3 col-sm-6 btn__item">
+                                  <a href="#" class="facebook"><i class="fa fa-facebook-square"></i></a>
+                                </div>
+          
+                                <div class="col-md-3 col-sm-6 btn__item">
+                                  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                </div>
+          
+                                <div class="col-md-3 col-sm-6 btn__item">
+                                  <a href="#" class="twitter"><i class="fa fa-twitter-square"></i></a>
+                                </div>
+          
+                                <div class="col-md-3 col-sm-6 btn__item">
+                                  <a href="#" class="linkedind"><i class="fa fa-linkedin-square"></i></a>
+                                </div>
+          
+                              </div>
+                            </div>
+                        </div>
+          
+                    </div>
+                  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
