@@ -1,0 +1,21 @@
+// -- COMPONENTES --
+
+@import "./components/variables";
+
+// -- BASE --
+@import "./base/mediaquery";
+@import "./base/reset";
+
+
+
+// -- LAYOUTS --
+@import "./layout/nav";
+@import "./layout/footer";
+@import "./layout/aside";
+
+
+// -- VIEWS --
+@import "./views/index";
+@import "./views/playlist";
+@import "./views/artistas";
+@import "./views/login";

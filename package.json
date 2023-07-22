@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-coderhouse-andreani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-sass": "nodemon -e scss -x  \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinAndreani/proyecto-coderhouse-andreani.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinAndreani/proyecto-coderhouse-andreani/issues"
+  },
+  "homepage": "https://github.com/MartinAndreani/proyecto-coderhouse-andreani#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
