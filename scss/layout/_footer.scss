@@ -19,7 +19,7 @@ $redes: (
     &__term{
             display: inline-block;
             position: relative;
-            top: 30px;
+            top: 10px;
             text-decoration: none;
             color: $color-text;
     }
@@ -34,13 +34,13 @@ $redes: (
         }
             &__item{
                 display: inline-block;
-                margin: 5px;
+                
                 width: 60px;
                 height: 50px;
                 
                 a {
                     display: block;
-                    padding: 0 5px;
+                    
                     
                     color:$color-text;
                     line-height: 40px;

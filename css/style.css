@@ -13,6 +13,27 @@ header nav {
   @media (min-width: 992px) {
     header nav {
       height: 200px; } }
+  header nav h1 {
+    font-size: 50px;
+    color: aliceblue !important;
+    font-family: "Permanent Marker", cursive;
+    text-shadow: 10px 10px 50px; }
+    @media (min-width: 992px) {
+      header nav h1 {
+        position: relative;
+        left: 25%;
+        bottom: 15px; } }
+  header nav img {
+    position: relative;
+    height: 25vh;
+    left: 80px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.5); }
+    @media screen and (min-width: 320px) {
+      header nav img {
+        left: 90px; } }
+    @media screen and (min-width: 576px) {
+      header nav img {
+        left: 20px; } }
   header nav .navbar-toggler {
     color: rgba(240, 248, 255, 0.515) !important;
     box-shadow: 0px 3px 20px 0px; }
@@ -50,7 +71,9 @@ header nav {
           font-size: 20px !important;
           width: 90px !important; } }
       header nav ul li:hover {
-        background-color: rgba(62, 200, 254, 0.529) !important; }
+        background-color: rgba(62, 200, 254, 0.529) !important;
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4); }
       header nav ul li a {
         position: relative;
         bottom: 10px;
@@ -59,27 +82,6 @@ header nav {
         text-shadow: 0px 0px 70px;
         font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
         font-size: 30px !important; }
-  header nav h1 {
-    font-size: 50px;
-    color: aliceblue !important;
-    font-family: "Permanent Marker", cursive;
-    text-shadow: 10px 10px 50px; }
-    @media (min-width: 992px) {
-      header nav h1 {
-        position: relative;
-        left: 25%;
-        bottom: 15px; } }
-  header nav img {
-    position: relative;
-    height: 25vh;
-    left: 80px;
-    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.5); }
-    @media screen and (min-width: 320px) {
-      header nav img {
-        left: 90px; } }
-    @media screen and (min-width: 576px) {
-      header nav img {
-        left: 20px; } }
   header nav .show {
     height: 400px; }
 
@@ -92,7 +94,7 @@ header nav {
   .footer__term {
     display: inline-block;
     position: relative;
-    top: 30px;
+    top: 10px;
     text-decoration: none;
     color: aliceblue; }
   .footer__redes {
@@ -105,12 +107,10 @@ header nav {
       filter: blur(2px); }
     .footer__redes .btn__item {
       display: inline-block;
-      margin: 5px;
       width: 60px;
       height: 50px; }
       .footer__redes .btn__item a {
         display: block;
-        padding: 0 5px;
         color: aliceblue;
         line-height: 40px;
         font-size: 20px;
@@ -128,6 +128,29 @@ header nav {
         background-color: #55acee; }
       .footer__redes .btn__item:hover .linkedind {
         background-color: #007785; }
+
+main .aside {
+  border-radius: 40px;
+  background-color: rgba(75, 75, 75, 0.737); }
+  main .aside h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    color: #7aacfc !important;
+    text-shadow: 10px 10px 30px;
+    text-decoration: underline; }
+  main .aside img {
+    height: 100px;
+    width: 100%;
+    border-radius: 10px; }
+  main .aside__card {
+    background-color: rgba(201, 201, 201, 0.692);
+    box-shadow: 0px 3px 10px 0px rgba(6, 209, 255, 0.715);
+    border-radius: 20px; }
+    main .aside__card:hover {
+      transform: translateY(-3px) scale(1.05); }
 
 .play {
   width: 180px;
