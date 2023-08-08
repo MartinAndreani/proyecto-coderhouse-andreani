@@ -1,25 +1,28 @@
-.artista{
-    
-    background-color: #33333342 !important;
-    border-radius: 40px !important;
-    
-   &__img{
-    
-    height: 200px !important;
-    border-radius: 25px !important;
-   }
 
-   &__title{
-    display: flex;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            font-family: $font-primary;
-            color: $bg-terciary;
-            text-shadow:  10px 10px 30px ;
-            font-size: 20px;
-        @include desktop{
-            font-size: 30px;
-        }
-   }
+main{
+    .artista{
+    
+        background-color: #33333342 !important;
+        border-radius: 40px !important;
+        
+       &__img{
+        
+        height: 250px !important;
+        border-radius: 25px !important;
+       }
+    
+       &__title{
+        display: flex;
+    
+                font-family: $font-primary;
+                color: $bg-terciary;
+                text-shadow:  10px 10px 30px ;
+                font-size: 20px;
+            @include desktop{
+                font-size: 30px;
+            }
+       }
+    }
+
 }
+
