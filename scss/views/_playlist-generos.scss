@@ -20,11 +20,14 @@ main{
                 color: $bg-terciary;
                 text-shadow:  10px 10px 30px ;
                 font-size: 30px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
        }
        &__text{
         font-size: 15px;
         font-family: $font-text;
-        text-align: justify;
+        white-space: nowrap;
+        text-overflow: ellipsis;
        }
     }
 }
