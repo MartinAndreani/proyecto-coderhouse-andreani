@@ -21,14 +21,16 @@ main{
                 color: $bg-terciary;
                 text-shadow:  10px 10px 30px ;
                 font-size: 25px;
-                text-overflow: ellipsis;
-                white-space: nowrap;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
                 
        }
        &__text{
         font-size: 15px;
         font-family: $font-text;
-        
+        text-overflow: ellipsis;
+
         
        }
     }
