@@ -243,18 +243,19 @@ main .articul {
     font-family: "Permanent Marker", cursive;
     color: #7aacfc !important;
     text-shadow: 10px 10px 30px;
-    font-size: 30px;
-    white-space: nowrap;
-    text-overflow: ellipsis; }
+    font-size: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   main .articul__text {
     font-size: 15px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    white-space: nowrap;
-    text-overflow: ellipsis; }
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 main .artista {
   background-color: #33333342 !important;
-  border-radius: 40px !important; }
+  border-radius: 40px !important;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  white-space: nowrap; }
   main .artista__img {
     height: 250px !important;
     border-radius: 25px !important; }
@@ -263,12 +264,10 @@ main .artista {
     font-family: "Permanent Marker", cursive;
     color: #7aacfc !important;
     text-shadow: 10px 10px 30px;
-    font-size: 20px;
-    white-space: nowrap;
-    text-overflow: ellipsis; }
-    @media (min-width: 992px) {
+    font-size: 15px; }
+    @media (min-width: 768px) {
       main .artista__title {
-        font-size: 30px; } }
+        font-size: 25px; } }
 
 body {
   background-color: #0e0d0d86 !important; }
