@@ -249,7 +249,9 @@ main .articul {
   main .articul__text {
     font-size: 15px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    text-overflow: ellipsis; }
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
 
 main .artista {
   background-color: #33333342 !important;
