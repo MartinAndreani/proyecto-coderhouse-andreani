@@ -2,9 +2,13 @@
 
 
 header{
-    position: fixed;
+    @include desktop{
+        position: fixed;
     z-index: 100;
     width: 100%;
+        
+    }
+    
     
     
     nav {
