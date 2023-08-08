@@ -7,6 +7,9 @@ body {
   background-color: #0e0d0d86 !important;
   background-size: 100rem; }
 
+main {
+  padding-top: 200px; }
+
 header {
   position: fixed;
   z-index: 100;
@@ -180,9 +183,6 @@ main .aside {
         main .aside__card__title {
           font-size: 20px !important; } }
 
-main {
-  padding-top: 200px; }
-
 .mixes {
   border-radius: 40px;
   background-color: rgba(75, 75, 75, 0.737);
@@ -224,42 +224,38 @@ main {
         .mixes__art__title {
           font-size: 20px !important; } }
 
-main {
-  padding-top: 200px; }
-  main .articul {
-    background-color: rgba(75, 75, 75, 0.737);
+main .articul {
+  background-color: rgba(75, 75, 75, 0.737);
+  border-radius: 15px !important; }
+  main .articul__img {
+    width: 100%;
+    height: 180px;
     border-radius: 15px !important; }
-    main .articul__img {
-      width: 100%;
-      height: 180px;
-      border-radius: 15px !important; }
-    main .articul__title {
-      font-family: "Permanent Marker", cursive;
-      color: #7aacfc !important;
-      text-shadow: 10px 10px 30px;
-      font-size: 30px; }
-    main .articul__text {
-      font-size: 15px;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-      text-align: justify; }
+  main .articul__title {
+    font-family: "Permanent Marker", cursive;
+    color: #7aacfc !important;
+    text-shadow: 10px 10px 30px;
+    font-size: 30px; }
+  main .articul__text {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: justify; }
 
-main {
-  padding-top: 200px; }
-  main .artista {
-    background-color: #33333342 !important;
-    border-radius: 40px !important; }
-    main .artista__img {
-      height: 250px !important;
-      border-radius: 25px !important; }
-    main .artista__title {
-      display: flex;
-      font-family: "Permanent Marker", cursive;
-      color: #7aacfc !important;
-      text-shadow: 10px 10px 30px;
-      font-size: 20px; }
-      @media (min-width: 992px) {
-        main .artista__title {
-          font-size: 30px; } }
+main .artista {
+  background-color: #33333342 !important;
+  border-radius: 40px !important; }
+  main .artista__img {
+    height: 250px !important;
+    border-radius: 25px !important; }
+  main .artista__title {
+    display: flex;
+    font-family: "Permanent Marker", cursive;
+    color: #7aacfc !important;
+    text-shadow: 10px 10px 30px;
+    font-size: 20px; }
+    @media (min-width: 992px) {
+      main .artista__title {
+        font-size: 30px; } }
 
 body {
   background-color: #0e0d0d86 !important; }
@@ -335,22 +331,22 @@ body {
       text-decoration: none;
       margin-bottom: 3px; }
 
-main {
+.formulario {
   padding-top: 0px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center; }
-  main .inferior {
+  .formulario .inferior {
     width: 140px;
     height: 40px;
     background-color: #0e0d0d86 !important;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
     border: none; }
-    main .inferior:hover {
+    .formulario .inferior:hover {
       transform: translateY(-1px) scale(1.05);
       box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4); }
-    main .inferior a {
+    .formulario .inferior a {
       font-size: 30px;
       text-decoration: none;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
