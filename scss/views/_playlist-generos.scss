@@ -29,8 +29,10 @@ main{
        &__text{
         font-size: 15px;
         font-family: $font-text;
+        white-space: nowrap;
         text-overflow: ellipsis;
 
+        overflow: hidden;
         
        }
     }
