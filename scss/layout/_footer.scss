@@ -1,16 +1,20 @@
 
 .footer{
+    background-color: $foot;
     
 
     
     img{
         position: relative;
         box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+        top: 20px;
+        @include xlmobile{
         top:2px;
         left: 40px;
+        }
+        
 
     }
-    background-color: $foot;
     
     
     &__term{
@@ -18,9 +22,10 @@
             position: relative;
             text-decoration: none;
             color: $color-text;
-            left:40px;
             @include desktop{
                 top: 20px;
+                left:40px;
+
             }
     }
     &__redes{
