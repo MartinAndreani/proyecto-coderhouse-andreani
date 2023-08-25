@@ -3,35 +3,33 @@ main{
    
     
     .articul{
-    
+        display: flex;
         background-color: $main;
         border-radius: 15px !important;
-        
-        
-        
-        
+
        &__img{
+        align-self: center;
         width:100%;
         height: 180px;
         border-radius: 15px !important;
+        
        }
     
        &__title{
+                text-align: center;
                 font-family: $font-primary;
                 color: $bg-terciary;
                 text-shadow:  10px 10px 30px ;
                 font-size: 25px;
-            white-space: nowrap;
-            text-overflow: ellipsis;
+                white-space: nowrap;
+                text-overflow: ellipsis;
 
-                
        }
        &__text{
         font-size: 15px;
         font-family: $font-text;
         white-space: nowrap;
         text-overflow: ellipsis;
-
         overflow: hidden;
         
        }
