@@ -8,7 +8,9 @@ main {
         
         border-radius: 20px;
         background-color:$main;
-        
+        a{
+            text-decoration: none;
+        }
         
         h3{
             display: flex;
