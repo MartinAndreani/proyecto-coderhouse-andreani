@@ -45,7 +45,7 @@ main{
 
     .modal-contenedor{
         @include mobile{
-            width: 35vh;
+            width: 50vh;
             height: 40vh;
         }
         
@@ -82,7 +82,7 @@ main{
             
             & h2{
                 @include mobile{
-                    width: 35vh;
+                    width: 50vh;
 
                 }
                 
@@ -97,7 +97,7 @@ main{
                 padding: 5px;
                 background-color:$bg-terciary;
                 color: #fff;
-                margin-bottom: 30px;
+                margin-bottom: 10px;
 
             }
             & label{
@@ -114,7 +114,7 @@ main{
     }
 
     .modal-contenido{
-        margin-top: 15vh;
+        margin-top: 9vh;
         
         & h4{
             
