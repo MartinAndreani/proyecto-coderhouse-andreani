@@ -380,9 +380,6 @@ main .modal-contenedor {
       @media screen and (min-width: 320px) {
         main .modal-contenedor__enc h2 {
           width: 48vh; } }
-      @media screen and (min-width: 576px) {
-        main .modal-contenedor__enc h2 {
-          width: 53vh; } }
       @media (min-width: 768px) {
         main .modal-contenedor__enc h2 {
           width: 90vh; } }

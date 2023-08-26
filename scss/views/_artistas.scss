@@ -85,16 +85,13 @@ main{
                     width: 48vh;
 
                 }
-                @include xlmobile{
-                    width: 53vh;
-
-                }
+                
 
                 @include tablet{
                     width: 90vh;
                     
-
                 }
+                
                 border-radius: 10px;
 
                 padding: 5px;
