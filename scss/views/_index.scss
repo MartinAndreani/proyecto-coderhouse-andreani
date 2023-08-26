@@ -4,7 +4,12 @@
     border-radius: 20px;
     background-color: rgba(75, 75, 75, 0.737);
     margin-bottom: 20px;
+
     
+    a{
+        
+        text-decoration: none;
+    }
     h3{
         display: flex;
             text-align: center;
@@ -14,7 +19,7 @@
             color: $bg-terciary;
             text-shadow:  10px 10px 30px ;
             text-decoration: underline;
-    }
+        }
 
     &__art{
         display: flex;

@@ -166,7 +166,7 @@ main .aside {
   main .aside img {
     height: 75px;
     width: 100%;
-    border-radius: 8px; }
+    border-radius: 4px; }
   main .aside__card {
     background-color: rgba(201, 201, 201, 0.692);
     box-shadow: 0px 3px 10px 0px rgba(62, 200, 254, 0.529) !important;
@@ -181,15 +181,21 @@ main .aside {
       display: flex;
       text-align: center;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      height: 40px; }
       @media (min-width: 992px) {
         main .aside__card__title {
           font-size: 18px !important; } }
+      @media screen and (min-width: 576px) {
+        main .aside__card__title {
+          height: 20px; } }
 
 .mixes {
   border-radius: 20px;
   background-color: rgba(75, 75, 75, 0.737);
   margin-bottom: 20px; }
+  .mixes a {
+    text-decoration: none; }
   .mixes h3 {
     display: flex;
     text-align: center;
@@ -232,6 +238,73 @@ main .aside {
       @media (min-width: 992px) {
         .mixes__art__title {
           font-size: 20px !important; } }
+
+main .encabezado {
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px; }
+
+main .rec1 {
+  background-color: #0e0d0d86 !important;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5vh; }
+  main .rec1 hr {
+    color: #7aacfc !important; }
+  main .rec1 h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    color: #7aacfc !important;
+    text-shadow: 10px 10px 30px;
+    text-decoration: underline; }
+  main .rec1 .cont {
+    background-color: aliceblue;
+    margin: 6px;
+    -webkit-box-shadow: 2px 3px 18px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 18px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 18px -4px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    overflow: hidden;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    border-radius: 6px; }
+    main .rec1 .cont:hover {
+      background-color: #0fee98 !important; }
+    main .rec1 .cont__tit__cont {
+      padding: 5px; }
+      main .rec1 .cont__tit__cont__nom {
+        height: 50px;
+        width: 30vh;
+        display: flex;
+        align-items: start;
+        padding: 4px; }
+        main .rec1 .cont__tit__cont__nom p {
+          margin: 0; }
+        main .rec1 .cont__tit__cont__nom a {
+          text-decoration: none;
+          color: black; }
+      main .rec1 .cont__tit__cont__img {
+        margin-right: 30px; }
+        @media (min-width: 768px) {
+          main .rec1 .cont__tit__cont__img {
+            margin-right: 15px; } }
+        main .rec1 .cont__tit__cont__img img {
+          height: 8vh;
+          width: 8vh; }
+    main .rec1 .cont__album {
+      margin: 0;
+      padding: 8px; }
+    main .rec1 .cont__duracion {
+      margin: 0;
+      padding-left: 15px; }
 
 main .lbl-modal {
   cursor: pointer;

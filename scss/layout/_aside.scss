@@ -9,6 +9,7 @@ main {
         border-radius: 20px;
         background-color:$main;
         
+        
         h3{
             display: flex;
             text-align: center;
@@ -22,7 +23,7 @@ main {
         img{
             height: 75px;
             width: 100%;
-            border-radius: 8px;
+            border-radius: 4px;
         }
         &__card{
             
@@ -30,6 +31,7 @@ main {
             box-shadow: 0px 3px 10px 0px $hover-button;
             border-radius: 10px;
             padding: 8px;
+            
             &:hover{
                 transform: translateY(-3px) scale(1.05);
                 
@@ -42,9 +44,15 @@ main {
                     text-align: center;
                     align-items: center;
                     justify-content: center;
+                    height: 40px;
                 @include desktop{
                     font-size: 18px !important;
+
                     
+                }
+                @include xlmobile{
+                    height: 20px;
+
                 }
             }
         }
