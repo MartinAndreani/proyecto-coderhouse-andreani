@@ -356,9 +356,9 @@ main .modal-contenedor {
   overflow-x: hidden; }
   @media screen and (min-width: 320px) {
     main .modal-contenedor {
-      width: 50vh;
+      width: 48vh;
       height: 45vh; } }
-  @media screen and (min-width: 576px) {
+  @media (min-width: 768px) {
     main .modal-contenedor {
       width: 90vh;
       height: 60vh; } }
@@ -379,8 +379,11 @@ main .modal-contenedor {
       margin-bottom: 30px; }
       @media screen and (min-width: 320px) {
         main .modal-contenedor__enc h2 {
-          width: 50vh; } }
+          width: 48vh; } }
       @media screen and (min-width: 576px) {
+        main .modal-contenedor__enc h2 {
+          width: 53vh; } }
+      @media (min-width: 768px) {
         main .modal-contenedor__enc h2 {
           width: 90vh; } }
     main .modal-contenedor__enc label {
@@ -399,6 +402,12 @@ main .modal-contenido {
     text-align: center;
     justify-content: center;
     margin: 40px; }
+    @media screen and (min-width: 320px) {
+      main .modal-contenido h4 {
+        font-size: 15px; } }
+    @media (min-width: 768px) {
+      main .modal-contenido h4 {
+        font-size: 25px; } }
 
 main .artista {
   background-color: #33333342 !important;

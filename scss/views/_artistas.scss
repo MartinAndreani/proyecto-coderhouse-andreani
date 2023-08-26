@@ -45,11 +45,11 @@ main{
 
     .modal-contenedor{
         @include mobile{
-            width: 50vh;
+            width: 48vh;
             height: 45vh;
         }
         
-        @include xlmobile{
+        @include tablet{
             width: 90vh;
             height: 60vh;
         }
@@ -82,11 +82,15 @@ main{
             
             & h2{
                 @include mobile{
-                    width: 50vh;
+                    width: 48vh;
+
+                }
+                @include xlmobile{
+                    width: 53vh;
 
                 }
 
-                @include xlmobile{
+                @include tablet{
                     width: 90vh;
                     
 
@@ -122,6 +126,12 @@ main{
             text-align: center;
             justify-content: center;
             margin: 40px;
+            @include mobile{
+                font-size: 15px;
+            }
+            @include tablet{
+                font-size: 25px;
+            }
 
 
         
