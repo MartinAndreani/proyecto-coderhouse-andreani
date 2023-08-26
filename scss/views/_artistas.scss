@@ -45,7 +45,7 @@ main{
 
     .modal-contenedor{
         @include mobile{
-            width: 20vh;
+            width: 30vh;
             height: 35vh;
         }
         
@@ -82,7 +82,7 @@ main{
             
             & h2{
                 @include mobile{
-                    width: 20vh;
+                    width: 30vh;
 
                 }
                 

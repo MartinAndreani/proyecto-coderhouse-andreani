@@ -356,7 +356,7 @@ main .modal-contenedor {
   overflow-x: hidden; }
   @media screen and (min-width: 320px) {
     main .modal-contenedor {
-      width: 20vh;
+      width: 30vh;
       height: 35vh; } }
   @media screen and (min-width: 576px) {
     main .modal-contenedor {
@@ -379,7 +379,7 @@ main .modal-contenedor {
       margin-bottom: 30px; }
       @media screen and (min-width: 320px) {
         main .modal-contenedor__enc h2 {
-          width: 20vh; } }
+          width: 30vh; } }
       @media screen and (min-width: 576px) {
         main .modal-contenedor__enc h2 {
           width: 90vh; } }
