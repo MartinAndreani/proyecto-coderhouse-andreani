@@ -45,11 +45,11 @@ main{
 
     .modal-contenedor{
         @include mobile{
-            width: 48vh;
-            height: 45vh;
+            width: 50vh;
+            height: 40vh;
         }
         
-        @include tablet{
+        @include xlmobile{
             width: 90vh;
             height: 60vh;
         }
@@ -82,25 +82,22 @@ main{
             
             & h2{
                 @include mobile{
-                    width: 48vh;
+                    width: 50vh;
 
                 }
+                
+
                 @include xlmobile{
-                    width: 53vh;
-
-                }
-
-                @include tablet{
                     width: 90vh;
                     
-
                 }
+
                 border-radius: 10px;
 
                 padding: 5px;
                 background-color:$bg-terciary;
                 color: #fff;
-                margin-bottom: 30px;
+                margin-bottom: 10px;
 
             }
             & label{
@@ -117,7 +114,7 @@ main{
     }
 
     .modal-contenido{
-        margin-top: 15vh;
+        margin-top: 9vh;
         
         & h4{
             
@@ -125,7 +122,7 @@ main{
             align-items: center;
             text-align: center;
             justify-content: center;
-            margin: 40px;
+            margin: 20px;
             @include mobile{
                 font-size: 15px;
             }

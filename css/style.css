@@ -356,9 +356,9 @@ main .modal-contenedor {
   overflow-x: hidden; }
   @media screen and (min-width: 320px) {
     main .modal-contenedor {
-      width: 48vh;
-      height: 45vh; } }
-  @media (min-width: 768px) {
+      width: 50vh;
+      height: 40vh; } }
+  @media screen and (min-width: 576px) {
     main .modal-contenedor {
       width: 90vh;
       height: 60vh; } }
@@ -376,14 +376,11 @@ main .modal-contenedor {
       padding: 5px;
       background-color: #7aacfc !important;
       color: #fff;
-      margin-bottom: 30px; }
+      margin-bottom: 10px; }
       @media screen and (min-width: 320px) {
         main .modal-contenedor__enc h2 {
-          width: 48vh; } }
+          width: 50vh; } }
       @media screen and (min-width: 576px) {
-        main .modal-contenedor__enc h2 {
-          width: 53vh; } }
-      @media (min-width: 768px) {
         main .modal-contenedor__enc h2 {
           width: 90vh; } }
     main .modal-contenedor__enc label {
@@ -395,13 +392,13 @@ main .modal-contenedor {
       cursor: pointer; }
 
 main .modal-contenido {
-  margin-top: 15vh; }
+  margin-top: 9vh; }
   main .modal-contenido h4 {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 40px; }
+    margin: 20px; }
     @media screen and (min-width: 320px) {
       main .modal-contenido h4 {
         font-size: 15px; } }
