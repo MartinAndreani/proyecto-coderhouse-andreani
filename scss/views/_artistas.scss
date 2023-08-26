@@ -45,8 +45,8 @@ main{
 
     .modal-contenedor{
         @include mobile{
-            width: 48vh;
-            height: 45vh;
+            width: 30vh;
+            height: 35vh;
         }
         
         @include tablet{
@@ -82,7 +82,7 @@ main{
             
             & h2{
                 @include mobile{
-                    width: 48vh;
+                    width: 30vh;
 
                 }
                 
@@ -91,7 +91,7 @@ main{
                     width: 90vh;
                     
                 }
-                
+
                 border-radius: 10px;
 
                 padding: 5px;
