@@ -1,0 +1,113 @@
+main{
+    .encabezado{
+        color: aliceblue;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+    }
+    
+    
+    .rec1{
+        background-color: $bg-primary;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-bottom: 5vh;
+        hr{
+            color:$bg-terciary;
+
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-family: $font-primary;
+            color: $bg-terciary;
+            text-shadow:  10px 10px 30px ;
+            text-decoration: underline;
+        }
+        
+        .cont{
+            background-color: aliceblue;
+            margin: 6px;
+            -webkit-box-shadow: 2px 3px 18px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 2px 3px 18px -4px rgba(0,0,0,0.75);
+            box-shadow: 2px 3px 18px -4px rgb(0, 0, 0);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 11px;
+            overflow: hidden;
+
+
+            &:hover{
+                background-color: $bg-secondary;
+            }
+            
+            display: flex;
+                text-align: start;
+                align-items: center;
+                border-radius: 6px;
+            &__tit{
+                
+                
+                &__cont{
+                    padding: 5px;
+                    
+                    &__nom{
+                    
+                    height: 50px;
+                    width: 30vh;
+                    display: flex;
+                    align-items: start;
+                    padding: 4px;
+                    p{
+                    margin:0 ;
+
+                    }
+                        
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        
+                    }
+                        
+                    }
+                    &__img{
+                        margin-right: 30px;
+                        @include tablet{
+                            margin-right: 15px;
+
+                        }
+                        img{
+                            height: 8vh;
+                            width: 8vh;
+                            
+                        }
+                        
+                    }
+                }
+                
+            }
+            &__album{
+                margin: 0;
+                padding: 8px;
+               
+
+            }
+            &__duracion{
+                margin: 0;
+                padding-left: 15px;
+                
+                
+            }
+        }
+
+    }
+    
+
+    
+}
+    
+    

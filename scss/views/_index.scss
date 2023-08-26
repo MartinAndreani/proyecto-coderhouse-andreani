@@ -1,10 +1,15 @@
 
 
 .mixes{
-    border-radius: 40px;
+    border-radius: 20px;
     background-color: rgba(75, 75, 75, 0.737);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+
     
+    a{
+        
+        text-decoration: none;
+    }
     h3{
         display: flex;
             text-align: center;
@@ -14,25 +19,32 @@
             color: $bg-terciary;
             text-shadow:  10px 10px 30px ;
             text-decoration: underline;
-    }
+        }
 
     &__art{
-        background-color: $card !important;
-        border-radius: 20px !important;
-        @include mobile{
-            display: flex;
+        display: flex;
             align-items: center;
             text-align: center;
             justify-content: center;
             align-content: center;
+        background-color: $card !important;
+        border-radius: 13px !important;
+        padding: 5px;
+        
+        @include desktop{
+            padding: 15px;
+            
+            
         }
         &:hover{
                 box-shadow: 0px 3px 10px 0px $hover-button}
         
     &__img{
-        height: 200px;
-            width: 200px;
-            border-radius: 10px;}
+        height: 15vh;
+        border-radius: 10px;
+        @include desktop{
+            height: 25vh;
+        }}
     
     &__title{
         font-size: 12px !important;

@@ -7,5 +7,12 @@
 
 body{background-color: $bg-primary;
     background-size: 100rem;
+    
 }
-@include desktop {main{padding-top: 200px;}}
+main{
+
+    @include desktop {
+        padding-top: 190px;
+        }
+    
+}
