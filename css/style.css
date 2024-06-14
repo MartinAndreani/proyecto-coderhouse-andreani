@@ -9,7 +9,7 @@ body {
 
 @media (min-width: 992px) {
   main {
-    padding-top: 190px; } }
+    padding-top: 290px; } }
 
 @media (min-width: 992px) {
   header {
@@ -21,7 +21,7 @@ header nav {
   background-color: #333333fa !important;
   width: 100%; }
   header nav h1 {
-    font-size: 40px;
+    font-size: 60px;
     color: aliceblue !important;
     font-family: "Permanent Marker", cursive;
     text-shadow: 10px 10px 50px; }
@@ -55,12 +55,12 @@ header nav {
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 45px;
     position: relative; }
     @media (min-width: 992px) {
       header nav ul {
-        right: 130px;
-        top: 55px; } }
+        left: 0px;
+        top: 60px; } }
     @media (min-width: 992px) {
       header nav ul .boton {
         position: relative;
@@ -69,7 +69,7 @@ header nav {
         width: 85px !important; } }
     @media (min-width: 1400px) {
       header nav ul .boton {
-        left: 130px; } }
+        left: 200px; } }
     header nav ul li {
       width: 140px;
       height: 40px;
